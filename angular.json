@@ -61,9 +61,11 @@
           "configurations": {
             "production": {
               "browserTarget": "maps-in-leon:build:production"
+              
             },
             "development": {
-              "browserTarget": "maps-in-leon:build:development"
+              "browserTarget": "maps-in-leon:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
